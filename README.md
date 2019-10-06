@@ -15,9 +15,10 @@ Then, put miware-installer, and config both into the directory you want to insta
 ### Dependecies
 
 The dependecies which Miware uses on a normal runtime:
-* Colorama
-* Winsound
-* Os
+* colorama
+* winsound
+* os
+* requests
 
 The dependecies which the miware installer uses on a normal runtime is:
 * pywin32
