@@ -7,7 +7,7 @@ def main():
     args = get_args(memory['full'])
 
     if args is False:
-        return print(Style.BRIGHT + Fore.RED + "No file specified!" + Style.RESET_ALL)
+        return print("usage:\nedit [file/path]")
 
     file = "{}\\{}".format(memory['path'], args[0])
     if os.path.isdir(file):

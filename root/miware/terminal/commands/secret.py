@@ -1,6 +1,7 @@
 from root.miware.terminal.commands.resource import *
 
 def main():
+    # Shhhhhh
     print('You found a secret!\nHere\'s some cookies!')
     print("""
                  _    _           

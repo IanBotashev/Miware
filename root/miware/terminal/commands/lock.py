@@ -6,8 +6,7 @@ def main():
     args = get_args(memory['full'])
 
     if args is False:
-        return print(
-            Style.BRIGHT + Fore.RED + "No Directory given." + Style.RESET_ALL)
+        return print("usage:\nlock [path/dir]")
 
     path = "{}\\{}".format(memory['path'], args[0])
 

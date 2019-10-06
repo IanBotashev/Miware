@@ -7,7 +7,7 @@ def main():
     folder_name = get_args(memory['full'])
 
     if folder_name is False:
-        return print(Style.BRIGHT + Fore.RED + 'No Folder name has been given.' + Style.RESET_ALL)
+        return print("usage:\nmkdir [directory-name]")
     try:
         os.mkdir('{0}\\{1}'.format(memory['path'], folder_name[0]))
     except FileExistsError:

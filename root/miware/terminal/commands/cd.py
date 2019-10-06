@@ -9,7 +9,7 @@ def main():
     args = get_args(memory['full'])
 
     if args is False:
-        return print(Style.BRIGHT + Fore.RED + 'No path given!' + Style.RESET_ALL)
+        return print('usage:\ncd [path]')
 
     path = "{}\\{}".format(memory['path'], args[0])
 

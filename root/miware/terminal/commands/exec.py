@@ -8,7 +8,7 @@ def main():
     args= get_args(memory['full'])
 
     if args is False:
-        return print('usage: exec [file]')
+        return print('usage:\nexec [file]')
     path = os.path.join(memory['path'], args[0])
 
     if os.path.isfile(path) is False:

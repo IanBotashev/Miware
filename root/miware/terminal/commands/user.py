@@ -66,7 +66,7 @@ def main():
     path = get_path()
 
     if args is False:
-        return print('usage: user\nuser delete - delete a user.\nuser create - create a user')
+        return print('usage:\nuser delete - delete a user.\nuser create - create a user')
 
     if check_admin(memory) is False:
         if prompt_admin_password() is False:

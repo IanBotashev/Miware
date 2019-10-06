@@ -1,5 +1,5 @@
 from root.miware.terminal.commands.resource import *
-from root.miware.terminal import make_map
+from root.miware.handler import make_map
 
 def main():
     memory = get_memory()
@@ -11,7 +11,7 @@ def main():
             return
 
     if args is False:
-        return colors.error('Usage:\ndel [package]\n')
+        return colors.error('Usage:\npackage del [package]\n')
 
     if args[0].lower() == 'del':
         remove_package(args[1])

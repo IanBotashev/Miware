@@ -6,7 +6,7 @@ def main():
     memory = get_memory()
     file = get_args(memory['full'])
     if file is False:
-        return print(Style.BRIGHT + Fore.RED + "No file given." + Style.RESET_ALL)
+        return print("usage:\ncontent [file/path]")
     pathtofile = "{0}\\{1}".format(memory['path'], file[0])
 
     if os.path.isdir(pathtofile) or os.path.exists(pathtofile) is False:

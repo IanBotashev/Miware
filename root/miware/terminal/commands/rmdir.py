@@ -15,7 +15,7 @@ def main():
             return
 
     if folder_name is False:
-        return print(Style.BRIGHT + Fore.RED + 'No Folder name has been given.' + Style.RESET_ALL)
+        return print("usage:\nrmdir [dir/path]")
 
     try:
         os.rmdir('{0}\\{1}'.format(memory['path'], folder_name[0]))
