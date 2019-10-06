@@ -1,4 +1,4 @@
-# miware
+# Miware
 A sort of "os" on windows.
 
 ## Information
