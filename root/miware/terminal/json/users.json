@@ -1,1 +1,1 @@
-{"miota": {"password": "admin", "admin": true}, "user": {"password": "user", "admin": true}}
+{(username): {(password): "", "admin": True/False}}
