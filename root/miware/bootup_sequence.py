@@ -29,5 +29,6 @@ def bootup_message():
     main = JsonShort('{}\\root\\miware\\terminal\\json\\main.json'.format(get_path()))
     data = main.openJson()
 
+    print('Github page: https://github.com/TheMiotaS/miware')
     print('Current version: ' + Fore.GREEN + str(data['version']) + Style.RESET_ALL)
     print_changelogs(get_changelogs(), data)

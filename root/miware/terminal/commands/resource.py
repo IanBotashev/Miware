@@ -2,33 +2,6 @@ from root.miware.jsonCommon  import *
 import random
 from colorama import *
 
-def get_parameters(full_command):
-    """
-    Gets the parameters a user gives.
-
-    For example:
-        argtest -hello 1
-    returns:
-        hello : 1
-    :return:
-    """
-    result = {}
-
-    try:
-        argssplit = full_command.split('-')
-        for arg in argssplit:
-            result.update({arg.split(' ')[0].lstrip().rstrip(): arg.split(' ')[1].lstrip().rstrip()})
-
-    except IndexError:
-        return False
-
-    try:
-        del result[full_command.split('-')[0].lstrip().rstrip()] # Remove the command executed from result
-    except KeyError:
-        return False
-
-    return result
-
 def get_memory():
     """Gets everything saved in memory.json"""
     json = JsonShort('{}\\root\\miware\\terminal\\json\\memory.json'.format(get_path()))
