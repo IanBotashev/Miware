@@ -1,6 +1,6 @@
 {
   "terminal_prefix": ">",
-  "main_admin": "miota",
+  "main_admin": "(username)",
   "path": "D:\\Coding\\Python\\Miware1.0",
   "version": "1.1"
 }
