@@ -2,8 +2,8 @@
 A sort of "os" on windows.
 
 ## Information
-Python Version: Python 3.7
-Miware Version: Miware 1.1
+* Python Version: Python 3.7
+* Miware Version: Miware 1.1
 
 
 ### Dependecies
