@@ -5,6 +5,12 @@ A sort of "os" on windows.
 * Python Version: Python 3.7
 * Miware Version: Miware 1.1
 
+### Installation
+If you would like to install miware,
+1. download miware-installer.py 
+2. grab the most recent config.json
+3. download all dependecies required.  
+Then, put miware-installer, and config both into the directory you want to install miware at, run miware-installer, and you're good to go!
 
 ### Dependecies
 
