@@ -4,11 +4,12 @@ import os
 from root.miware.terminal.commands.resource import *
 import winsound
 
-# Placeholder test:
-# {'miota': {'password': 'miota', 'admin': 'false'}}
-
 
 def login_main():
+    """
+    Used for logining in.
+    :return:
+    """
     attempts = 0
     while True:
         if attempts >= 5:
