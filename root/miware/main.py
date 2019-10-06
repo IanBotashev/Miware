@@ -1,4 +1,4 @@
-from root.miware.terminal import handle
+from root.miware.handler import *
 from root.miware.terminal.commands.resource import format_path, get_memory, get_path
 from root.miware.login import *
 from root.miware.bootup_sequence import *

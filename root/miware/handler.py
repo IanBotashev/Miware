@@ -31,7 +31,7 @@ def make_map():
     files = os.listdir('{}\\root\\miware\\terminal\\commands'.format(path))
     command_map = []
     for file in files:
-        if file != 'resource.py' and file != '__init__.py':
+        if file != 'resource.py' and file != 'handler.py':
             command_map.append(file.split('.')[0])
 
 
