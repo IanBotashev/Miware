@@ -3,6 +3,7 @@ from colorama import *
 import winsound
 from root.miware.terminal.commands.resource import get_path
 from root.miware.jsonCommon import *
+from root.miware.updater import *
 
 def bootup_main():
     login_main()
