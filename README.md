@@ -1,6 +1,9 @@
 # Miware
 A sort of "os" on windows.
 
+# Important
+Now being developed outside of github.
+
 ## Information
 * Python Version: Python 3.7
 * Miware Version: Miware 1.1
